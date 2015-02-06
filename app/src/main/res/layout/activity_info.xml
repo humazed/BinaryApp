@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.huma.binaryConvector.Info"
+    android:background="#ff34af55">
+
+    <TextView
+        android:id="@+id/devName_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEV: Ibrahim Eid"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:typeface="serif"
+        android:textColor="@android:color/white"
+        android:shadowColor="#ff62d0ff"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/iaap_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                            "
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:textColor="@android:color/holo_red_light"/>
+</RelativeLayout>

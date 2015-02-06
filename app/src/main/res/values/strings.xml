@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bin-Dec-Oct-Hex Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_info">Info</string>
+
+    <string-array name="systems">
+        <item>Bin</item>
+        <item>Dec</item>
+        <item>Oct</item>
+        <item>Hex</item>
+    </string-array>
+
+    <string name="title_activity_info">Info</string>
+
+</resources>
